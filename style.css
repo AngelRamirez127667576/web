@@ -9,7 +9,7 @@ body
 }
 body#dos
 {
-    background-color: #003a63;
+    background-color: #043960;
 }
 .explicacion
 {
@@ -39,10 +39,12 @@ p#Saludo
 .btn
 {
     display: inline-block;
+    margin: 50px auto;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
+    padding: 30px 90px;
     color: #fff;
     text-decoration: none;
     border-radius: 40px;
@@ -51,7 +53,7 @@ p#Saludo
 
 .btn:hover
 {
-    background: #2952a0;
+    background: #043960;
 }
 /* inicia el estilo del perfil*/
 header#header-perfil
@@ -91,7 +93,7 @@ header#header-perfil h1
 }
 section#acercade
 {
-    background-color: #003a63;
+    background-color: #043960;
     margin-bottom: 300px;
 }
 section#acercade h2
@@ -109,8 +111,8 @@ section#acercade p
     font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-size: 20px;
-  text-align: center;
   margin: 0 100px 0 100px;
+  text-align: center;
 
 }
 section#galeria1
@@ -188,7 +190,6 @@ ul.lista ::-webkit-scrollbar
 section#reel
 {
     margin-top: 150px;
-    text-align: center;
 }
 section#reel h2
 {
@@ -201,7 +202,6 @@ section#reel h2
 .DEMO
 {
   margin: 50px 0 150px 0;
-  text-align: center;
 }
 /* estilo del footer*/
 footer h2
